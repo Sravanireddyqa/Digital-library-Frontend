@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- Close Button -->
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="end"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_close"
+        app:tint="#6B7280"/>
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservation QR Code"
+        android:textColor="#1F2937"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <!-- QR Code Placeholder -->
+    <ImageView
+        android:id="@+id/ivQRCode"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:background="#F3F4F6"
+        android:src="@drawable/ic_qr_code"
+        android:scaleType="centerInside"
+        android:padding="20dp"/>
+
+    <!-- Reservation ID -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Reservation ID"
+        android:textColor="#6B7280"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tvReservationId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="RES-001-2024"
+        android:textColor="#1F2937"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- Instructions -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Show this QR code at the library to pick up your book"
+        android:textColor="#6B7280"
+        android:textSize="14sp"/>
+
+    <!-- Download Button -->
+    <TextView
+        android:id="@+id/btnDownloadQR"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_button_blue"
+        android:drawableStart="@drawable/ic_download"
+        android:drawablePadding="8dp"
+        android:drawableTint="@android:color/white"
+        android:gravity="center"
+        android:text="Download QR Code"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+</LinearLayout>

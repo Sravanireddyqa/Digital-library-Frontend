@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Category options for book dropdown -->
+    <string-array name="book_categories">
+        <item>Select Category</item>
+        <item>Fiction</item>
+        <item>Non-Fiction</item>
+        <item>Mythology</item>
+        <item>Mystery Novels</item>
+        <item>Science</item>
+        <item>Educational Books</item>
+        <item>Historical Fiction</item>
+    </string-array>
+</resources>

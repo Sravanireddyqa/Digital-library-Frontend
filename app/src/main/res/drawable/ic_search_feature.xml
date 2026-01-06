@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Background gradient circle -->
+    <path
+        android:pathData="M50,50m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0"
+        android:fillColor="#F5F7FA"/>
+    
+    <!-- Search circle (outer) -->
+    <path
+        android:pathData="M45,45m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"
+        android:strokeWidth="4"
+        android:strokeColor="#B8D4E8"
+        android:fillColor="#00000000"/>
+    
+    <!-- Search handle -->
+    <path
+        android:pathData="M60,60L72,72"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeColor="#B8D4E8"/>
+    
+</vector>

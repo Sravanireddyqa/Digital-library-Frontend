@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Digital Library</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_header">AI Semantic Search App</string>
+    <string name="onboarding_app_name">Digital Library</string>
+    <string name="onboarding_tagline">Your Smart Library Companion</string>
+    <string name="onboarding_powered_by">Powered by AI &amp; Semantic Search</string>
+    
+    <string name="onboarding_title_1">AI-Powered Semantic Search</string>
+    <string name="onboarding_desc_1">Discover books using natural language and advanced NLP. Just describe what you want to read, and our AI will understand your intent and find the perfect match.</string>
+    
+    <string name="onboarding_title_2">Smart Book Catalog</string>
+    <string name="onboarding_desc_2">Browse through our extensive collection of books organized intelligently. Filter by genre, author, availability, and get personalized recommendations.</string>
+    
+    <string name="onboarding_title_3">Easy Reservations</string>
+    <string name="onboarding_desc_3">Reserve your favorite books with just one tap. Get notified when they\'re available and never miss out on the books you love.</string>
+    
+    <string name="btn_next">Next</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_skip">Skip</string>
+    
+    <!-- Login -->
+    <string name="login_title">Welcome Back!</string>
+    <string name="login_subtitle">Access your personalized library experience with AI-powered book recommendations</string>
+    <string name="hint_email">your@email.com</string>
+    <string name="hint_password">••••••••</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="btn_login">Login</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    
+    <!-- Register -->
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Join our library and discover amazing books with AI</string>
+    <string name="label_name">Full Name</string>
+    <string name="hint_name">John Doe</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="btn_register">Sign Up</string>
+    <string name="already_have_account">Already have an account?</string>
+    
+    <!-- Error Messages -->
+    <string name="error_email_required">Email is required</string>
+    <string name="error_email_invalid">Please enter a valid email</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_name_required">Name is required</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_login_failed">Login failed. Please try again.</string>
+    <string name="error_register_failed">Registration failed. Please try again.</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_name">Change Name</string>
+    <string name="change_phone">Change Phone Number</string>
+    <string name="change_password">Change Password</string>
+    <string name="update_password">Update Password</string>
+    
+    <!-- Notifications -->
+    <string name="notification_settings">Notification Settings</string>
+    <string name="new_books_alert">New Books Alert</string>
+    <string name="reservation_status">Reservation Status Alert</string>
+    <string name="due_date_reminder">Due Date Reminder</string>
+    
+    <!-- Search Preferences -->
+    <string name="search_preferences">Search Preferences (AI)</string>
+    <string name="enable_semantic_search">Enable Semantic Search</string>
+    <string name="preferred_category">Preferred Category</string>
+    <string name="language_preference">Language Preference</string>
+    
+    <!-- Privacy -->
+    <string name="privacy_security">Privacy &amp; Security</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="auto_logout">Auto Logout Timer</string>
+    <string name="clear_history">Clear Search History</string>
+    
+    <!-- App Info -->
+    <string name="app_info">App Info</string>
+    <string name="about_app">About App</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="version">Version 1.0.0</string>
+    
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="libraries">Libraries</string>
+    <string name="bookings">Bookings</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_about_title">About Digital Library</string>
+    <string name="dialog_about_message">Digital Library v1.0.0\n\nA smart digital library app with AI-powered semantic search.\n\nFeatures:\n• Browse and reserve books\n• Semantic search with NLP\n• Multiple library support\n• Wishlist management\n• Real-time notifications\n\n© 2024 SIMATS University</string>
+    <string name="dialog_terms_title">Terms &amp; Conditions</string>
+    <string name="dialog_terms_message">1. Users must be registered to reserve books.\n\n2. Reserved books must be picked up within 3 days.\n\n3. Late returns may incur penalties.\n\n4. Users are responsible for book care.\n\n5. The library reserves the right to cancel reservations.\n\n6. Security deposits are refundable upon book return.\n\n7. Users must follow library rules and regulations.</string>
+    <string name="dialog_privacy_title">Privacy Policy</string>
+    <string name="dialog_privacy_message">We respect your privacy and are committed to protecting your personal data.\n\nData We Collect:\n• Name and email for registration\n• Reservation history\n• Search preferences\n\nHow We Use Data:\n• To provide library services\n• To send notifications\n• To improve search results\n\nYour data is stored securely and never shared with third parties.</string>
+    <string name="dialog_clear_history_title">Clear Search History</string>
+    <string name="dialog_clear_history_message">Are you sure?</string>
+    <string name="dialog_change_name_title">Change Name</string>
+    <string name="dialog_change_phone_title">Change Phone Number</string>
+    <string name="dialog_change_password_title">Change Password</string>
+    <string name="hint_enter_name">Enter new name</string>
+    <string name="hint_enter_phone">Enter phone number</string>
+    <string name="hint_current_password">Current Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_ok">OK</string>
+    <string name="msg_name_updated">Name updated</string>
+    <string name="msg_phone_updated">Phone updated</string>
+    <string name="msg_password_changed">Password changed successfully!</string>
+    <string name="msg_history_cleared">Search history cleared</string>
+</resources>

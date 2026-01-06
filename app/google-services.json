@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "24494416668",
+    "project_id": "digitallibrary2-c708f",
+    "storage_bucket": "digitallibrary2-c708f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24494416668:android:cff5dd71005812f29750d9",
+        "android_client_info": {
+          "package_name": "com.simats.digitallibrary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeuhpdc9hPqrOIAGpkhY5NSxuN2YrG4bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

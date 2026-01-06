@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Primary Colors -->
+    <color name="primary">#4A7DFF</color>
+    <color name="primary_dark">#3B63CC</color>
+    <color name="accent">#7C3AED</color>
+    
+    <!-- Onboarding Colors -->
+    <color name="onboarding_title">#4A7DFF</color>
+    <color name="onboarding_description">#6B7280</color>
+    <color name="onboarding_header">#A8C4E5</color>
+    
+    <!-- UI Colors -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="background_light">#F5F7FA</color>
+    <color name="green_badge">#10B981</color>
+    <color name="indicator_inactive">#E0E0E0</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#A855F7</color>
+    <color name="gradient_center">#C084FC</color>
+    <color name="gradient_end">#F472B6</color>
+</resources>

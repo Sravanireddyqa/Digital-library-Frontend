@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Network permissions for API calls -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <!-- Location permissions for sorting libraries by distance -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Image/Storage permissions for book cover upload -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" /> <!-- Android 13+ -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" /> <!-- Android 12 and below -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    
+    <!-- Notification permission for Android 13+ -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Digitallibrary2"
+        android:usesCleartextTraffic="true">
+        
+        <!-- Onboarding Activity - First Launch -->
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Digitallibrary2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Select Account Type Activity -->
+        <activity
+            android:name=".SelectAccountTypeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+        
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+            
+        <!-- Register Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+        
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Book Lookup Activity -->
+        <activity
+            android:name=".BookLookupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Admin Dashboard Activity -->
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Admin Profile Activity -->
+        <activity
+            android:name=".AdminProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Manage Books Activity -->
+        <activity
+            android:name=".ManageBooksActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- View Ratings Activity -->
+        <activity
+            android:name=".ViewRatingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Reservation Management Activity -->
+        <activity
+            android:name=".ReservationManagementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- QR Scanner Activity -->
+        <activity
+            android:name=".QRScannerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- QR Scanner Camera Activity - Locked to Portrait -->
+        <activity
+            android:name=".PortraitCaptureActivity"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- User Management Activity -->
+        <activity
+            android:name=".UserManagementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Orders Activity -->
+        <activity
+            android:name=".OrdersActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Invoices Activity -->
+        <activity
+            android:name=".InvoicesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Reader Dashboard Activity -->
+        <activity
+            android:name=".ReaderDashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- My Bookings Activity -->
+        <activity
+            android:name=".MyBookingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Reader Profile Activity -->
+        <activity
+            android:name=".ReaderProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Search Books Activity -->
+        <activity
+            android:name=".SearchBooksActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Browse Libraries Activity -->
+        <activity
+            android:name=".BrowseLibrariesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Wishlist Activity -->
+        <activity
+            android:name=".WishlistActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Book Details Activity -->
+        <activity
+            android:name=".BookDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Reservation Flow Activity -->
+        <activity
+            android:name=".ReservationFlowActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- AI Assistant Activity -->
+        <activity
+            android:name=".AIAssistantActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+
+        <!-- Settings Activity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+            
+        <!-- Forgot Password Activity -->
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+            
+        <!-- Verify OTP Activity -->
+        <activity
+            android:name=".VerifyOTPActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+            
+        <!-- Reset Password Activity -->
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+            
+        <!-- Notifications Activity -->
+        <activity
+            android:name=".NotificationsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+            
+        <!-- Ratings Activity -->
+        <activity
+            android:name=".RatingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Digitallibrary2" />
+            
+        <!-- Firebase Messaging Service -->
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        
+        <!-- Default notification channel for FCM -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="digitallibrary_notifications" />
+            
+    </application>
+
+</manifest>

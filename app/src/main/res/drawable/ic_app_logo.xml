@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow/Glow effect -->
+    <item
+        android:left="4dp"
+        android:top="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#20A855F7"/>
+            <corners android:radius="28dp"/>
+        </shape>
+    </item>
+    
+    <!-- Main gradient background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#A855F7"
+                android:centerColor="#C084FC"
+                android:endColor="#F472B6"
+                android:angle="135"/>
+            <corners android:radius="28dp"/>
+        </shape>
+    </item>
+    
+    <!-- Inner book shape -->
+    <item
+        android:left="24dp"
+        android:top="24dp"
+        android:right="24dp"
+        android:bottom="24dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">நூலகம் AI</string>
+    
+    <!-- Settings -->
+    <string name="settings">அமைப்புகள்</string>
+    <string name="edit_profile">சுயவிவரம் திருத்து</string>
+    <string name="change_name">பெயர் மாற்று</string>
+    <string name="change_phone">தொலைபேசி எண் மாற்று</string>
+    <string name="change_password">கடவுச்சொல் மாற்று</string>
+    <string name="update_password">கடவுச்சொல் புதுப்பி</string>
+    
+    <!-- Notifications -->
+    <string name="notification_settings">அறிவிப்பு அமைப்புகள்</string>
+    <string name="new_books_alert">புதிய புத்தக எச்சரிக்கை</string>
+    <string name="reservation_status">முன்பதிவு நிலை எச்சரிக்கை</string>
+    <string name="due_date_reminder">நினைவூட்டல் தேதி</string>
+    
+    <!-- Search Preferences -->
+    <string name="search_preferences">தேடல் விருப்பங்கள் (AI)</string>
+    <string name="enable_semantic_search">சிமாண்டிக் தேடலை இயக்கு</string>
+    <string name="preferred_category">விரும்பிய வகை</string>
+    <string name="language_preference">மொழி விருப்பம்</string>
+    
+    <!-- Privacy -->
+    <string name="privacy_security">தனியுரிமை &amp; பாதுகாப்பு</string>
+    <string name="remember_me">என்னை நினைவில் கொள்</string>
+    <string name="auto_logout">தானியங்கி வெளியேற்ற நேரம்</string>
+    <string name="clear_history">தேடல் வரலாறு அழி</string>
+    
+    <!-- App Info -->
+    <string name="app_info">ஆப் தகவல்</string>
+    <string name="about_app">ஆப் பற்றி</string>
+    <string name="terms_conditions">விதிமுறைகள் &amp; நிபந்தனைகள்</string>
+    <string name="privacy_policy">தனியுரிமைக் கொள்கை</string>
+    <string name="version">பதிப்பு 1.0.0</string>
+    
+    <!-- Navigation -->
+    <string name="home">முகப்பு</string>
+    <string name="search">தேடல்</string>
+    <string name="libraries">நூலகங்கள்</string>
+    <string name="bookings">முன்பதிவுகள்</string>
+    <string name="wishlist">விருப்பப்பட்டியல்</string>
+    <string name="profile">சுயவிவரம்</string>
+    <string name="logout">வெளியேறு</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_about_title">ஆப் பற்றி</string>
+    <string name="dialog_about_message">நூலகம் AI v1.0.0\n\nAI-இயக்கப்படும் சிமாண்டிக் தேடலுடன் ஸ்மார்ட் டிஜிட்டல் நூலக ஆப்.\n\nஅம்சங்கள்:\n• புத்தகங்களை உலாவுங்கள் மற்றும் முன்பதிவு செய்யுங்கள்\n• NLP உடன் சிமாண்டிக் தேடல்\n• பல நூலக ஆதரவு\n• விருப்பப்பட்டியல் மேலாண்மை\n• நிகழ்நேர அறிவிப்புகள்\n\n© 2024 SIMATS பல்கலைக்கழகம்</string>
+    <string name="dialog_terms_title">விதிமுறைகள் &amp; நிபந்தனைகள்</string>
+    <string name="dialog_terms_message">1. புத்தகங்களை முன்பதிவு செய்ய பயனர்கள் பதிவு செய்ய வேண்டும்.\n\n2. முன்பதிவு செய்யப்பட்ட புத்தகங்களை 3 நாட்களுக்குள் எடுக்க வேண்டும்.\n\n3. தாமதமான திரும்புதலுக்கு அபராதம் விதிக்கப்படலாம்.\n\n4. புத்தக பராமரிப்புக்கு பயனர்கள் பொறுப்பு.\n\n5. முன்பதிவுகளை ரத்து செய்யும் உரிமை நூலகத்திற்கு உள்ளது.\n\n6. புத்தகம் திருப்பியளிக்கப்பட்டவுடன் பாதுகாப்பு வைப்புத்தொகை திரும்பப்பெறப்படும்.\n\n7. பயனர்கள் நூலக விதிகளைப் பின்பற்ற வேண்டும்.</string>
+    <string name="dialog_privacy_title">தனியுரிமைக் கொள்கை</string>
+    <string name="dialog_privacy_message">உங்கள் தனியுரிமையை நாங்கள் மதிக்கிறோம் மற்றும் உங்கள் தனிப்பட்ட தரவைப் பாதுகாக்க உறுதிபூண்டுள்ளோம்.\n\nநாங்கள் சேகரிக்கும் தரவு:\n• பதிவுக்கான பெயர் மற்றும் மின்னஞ்சல்\n• முன்பதிவு வரலாறு\n• தேடல் விருப்பங்கள்\n\nதரவை நாங்கள் எவ்வாறு பயன்படுத்துகிறோம்:\n• நூலக சேவைகளை வழங்க\n• அறிவிப்புகளை அனுப்ப\n• தேடல் முடிவுகளை மேம்படுத்த\n\nஉங்கள் தரவு பாதுகாப்பாக சேமிக்கப்படுகிறது மற்றும் மூன்றாம் தரப்பினருடன் பகிரப்படுவதில்லை.</string>
+    <string name="dialog_clear_history_title">தேடல் வரலாறு அழி</string>
+    <string name="dialog_clear_history_message">நீங்கள் நிச்சயமாக இருக்கிறீர்களா?</string>
+    <string name="dialog_change_name_title">பெயர் மாற்று</string>
+    <string name="dialog_change_phone_title">தொலைபேசி எண் மாற்று</string>
+    <string name="dialog_change_password_title">கடவுச்சொல் மாற்று</string>
+    <string name="hint_enter_name">புதிய பெயர் உள்ளிடுக</string>
+    <string name="hint_enter_phone">தொலைபேசி எண் உள்ளிடுக</string>
+    <string name="hint_current_password">தற்போதைய கடவுச்சொல்</string>
+    <string name="hint_new_password">புதிய கடவுச்சொல்</string>
+    <string name="hint_confirm_password">கடவுச்சொல் உறுதிசெய்</string>
+    <string name="btn_save">சேமி</string>
+    <string name="btn_cancel">ரத்து</string>
+    <string name="btn_clear">அழி</string>
+    <string name="btn_change">மாற்று</string>
+    <string name="btn_ok">சரி</string>
+    <string name="msg_name_updated">பெயர் புதுப்பிக்கப்பட்டது</string>
+    <string name="msg_phone_updated">தொலைபேசி புதுப்பிக்கப்பட்டது</string>
+    <string name="msg_password_changed">கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது!</string>
+    <string name="msg_history_cleared">தேடல் வரலாறு அழிக்கப்பட்டது</string>
+    <string name="error_enter_password">தற்போதைய கடவுச்சொல் உள்ளிடுக</string>
+    <string name="error_password_short">கடவுச்சொல் குறைந்தது 6 எழுத்துகள் இருக்க வேண்டும்</string>
+    <string name="error_password_mismatch">கடவுச்சொற்கள் பொருந்தவில்லை</string>
+</resources>
