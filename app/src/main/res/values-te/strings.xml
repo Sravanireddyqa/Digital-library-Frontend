@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">లైబ్రరీ AI</string>
+    
+    <!-- Settings -->
+    <string name="settings">సెట్టింగ్‌లు</string>
+    <string name="edit_profile">ప్రొఫైల్ సవరించండి</string>
+    <string name="change_name">పేరు మార్చండి</string>
+    <string name="change_phone">ఫోన్ నంబర్ మార్చండి</string>
+    <string name="change_password">పాస్‌వర్డ్ మార్చండి</string>
+    <string name="update_password">పాస్‌వర్డ్ అప్‌డేట్ చేయండి</string>
+    
+    <!-- Notifications -->
+    <string name="notification_settings">నోటిఫికేషన్ సెట్టింగ్‌లు</string>
+    <string name="new_books_alert">కొత్త పుస్తకాల హెచ్చరిక</string>
+    <string name="reservation_status">రిజర్వేషన్ స్థితి హెచ్చరిక</string>
+    <string name="due_date_reminder">గడువు తేదీ రిమైండర్</string>
+    
+    <!-- Search Preferences -->
+    <string name="search_preferences">శోధన ప్రాధాన్యతలు (AI)</string>
+    <string name="enable_semantic_search">సెమాంటిక్ శోధన ప్రారంభించండి</string>
+    <string name="preferred_category">ప్రాధాన్య వర్గం</string>
+    <string name="language_preference">భాష ప్రాధాన్యత</string>
+    
+    <!-- Privacy -->
+    <string name="privacy_security">గోప్యత &amp; భద్రత</string>
+    <string name="remember_me">నన్ను గుర్తుంచుకో</string>
+    <string name="auto_logout">ఆటో లాగ్అవుట్ టైమర్</string>
+    <string name="clear_history">శోధన చరిత్ర క్లియర్ చేయండి</string>
+    
+    <!-- App Info -->
+    <string name="app_info">యాప్ సమాచారం</string>
+    <string name="about_app">యాప్ గురించి</string>
+    <string name="terms_conditions">నిబంధనలు &amp; షరతులు</string>
+    <string name="privacy_policy">గోప్యతా విధానం</string>
+    <string name="version">వెర్షన్ 1.0.0</string>
+    
+    <!-- Navigation -->
+    <string name="home">హోమ్</string>
+    <string name="search">శోధన</string>
+    <string name="libraries">లైబ్రరీలు</string>
+    <string name="bookings">బుకింగ్‌లు</string>
+    <string name="wishlist">విష్‌లిస్ట్</string>
+    <string name="profile">ప్రొఫైల్</string>
+    <string name="logout">లాగ్అవుట్</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_about_title">యాప్ గురించి</string>
+    <string name="dialog_about_message">లైబ్రరీ AI v1.0.0\n\nAI-ఆధారిత సెమాంటిక్ సెర్చ్‌తో స్మార్ట్ డిజిటల్ లైబ్రరీ యాప్.\n\nఫీచర్లు:\n• పుస్తకాలను బ్రౌజ్ చేయండి మరియు రిజర్వ్ చేయండి\n• NLP తో సెమాంటిక్ శోధన\n• బహుళ లైబ్రరీ మద్దతు\n• విష్‌లిస్ట్ నిర్వహణ\n• రియల్-టైమ్ నోటిఫికేషన్లు\n\n© 2024 SIMATS విశ్వవిద్యాలయం</string>
+    <string name="dialog_terms_title">నిబంధనలు &amp; షరతులు</string>
+    <string name="dialog_terms_message">1. పుస్తకాలు రిజర్వ్ చేయడానికి వినియోగదారులు నమోదు చేయాలి.\n\n2. రిజర్వ్ చేసిన పుస్తకాలను 3 రోజుల్లో తీసుకెళ్ళాలి.\n\n3. ఆలస్యంగా తిరిగి ఇస్తే జరిమానాలు విధించవచ్చు.\n\n4. పుస్తక సంరక్షణకు వినియోగదారులు బాధ్యత వహిస్తారు.\n\n5. రిజర్వేషన్లు రద్దు చేసే హక్కు లైబ్రరీకి ఉంది.\n\n6. పుస్తకం తిరిగి ఇచ్చిన తర్వాత సెక్యూరిటీ డిపాజిట్లు రిఫండ్ చేయబడతాయి.\n\n7. వినియోగదారులు లైబ్రరీ నియమాలను పాటించాలి.</string>
+    <string name="dialog_privacy_title">గోప్యతా విధానం</string>
+    <string name="dialog_privacy_message">మేము మీ గోప్యతను గౌరవిస్తాము మరియు మీ వ్యక్తిగత డేటాను రక్షించడానికి కట్టుబడి ఉన్నాము.\n\nమేము సేకరించే డేటా:\n• నమోదు కోసం పేరు మరియు ఇమెయిల్\n• రిజర్వేషన్ చరిత్ర\n• శోధన ప్రాధాన్యతలు\n\nమేము డేటాను ఎలా ఉపయోగిస్తాము:\n• లైబ్రరీ సేవలు అందించడానికి\n• నోటిఫికేషన్లు పంపడానికి\n• శోధన ఫలితాలను మెరుగుపరచడానికి\n\nమీ డేటా సురక్షితంగా నిల్వ చేయబడుతుంది మరియు థర్డ్ పార్టీలతో షేర్ చేయబడదు.</string>
+    <string name="dialog_clear_history_title">శోధన చరిత్ర క్లియర్</string>
+    <string name="dialog_clear_history_message">మీకు ఖచ్చితంగా తెలుసా?</string>
+    <string name="dialog_change_name_title">పేరు మార్చండి</string>
+    <string name="dialog_change_phone_title">ఫోన్ నంబర్ మార్చండి</string>
+    <string name="dialog_change_password_title">పాస్‌వర్డ్ మార్చండి</string>
+    <string name="hint_enter_name">కొత్త పేరు ఎంటర్ చేయండి</string>
+    <string name="hint_enter_phone">ఫోన్ నంబర్ ఎంటర్ చేయండి</string>
+    <string name="hint_current_password">ప్రస్తుత పాస్‌వర్డ్</string>
+    <string name="hint_new_password">కొత్త పాస్‌వర్డ్</string>
+    <string name="hint_confirm_password">పాస్‌వర్డ్ నిర్ధారించండి</string>
+    <string name="btn_save">సేవ్</string>
+    <string name="btn_cancel">రద్దు</string>
+    <string name="btn_clear">క్లియర్</string>
+    <string name="btn_change">మార్చు</string>
+    <string name="btn_ok">సరే</string>
+    <string name="msg_name_updated">పేరు అప్‌డేట్ అయింది</string>
+    <string name="msg_phone_updated">ఫోన్ అప్‌డేట్ అయింది</string>
+    <string name="msg_password_changed">పాస్‌వర్డ్ విజయవంతంగా మార్చబడింది!</string>
+    <string name="msg_history_cleared">శోధన చరిత్ర క్లియర్ అయింది</string>
+    <string name="error_enter_password">ప్రస్తుత పాస్‌వర్డ్ ఎంటర్ చేయండి</string>
+    <string name="error_password_short">పాస్‌వర్డ్ కనీసం 6 అక్షరాలు ఉండాలి</string>
+    <string name="error_password_mismatch">పాస్‌వర్డ్‌లు సరిపోలలేదు</string>
+</resources>

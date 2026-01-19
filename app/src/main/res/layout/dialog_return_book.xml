@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_dialog_rounded">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return Book"
+        android:textColor="#1F2937"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select return condition"
+        android:textColor="#6B7280"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Book Info -->
+    <TextView
+        android:id="@+id/tvBookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Title"
+        android:textColor="#374151"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvDepositAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deposit: ₹299"
+        android:textColor="#10B981"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E5E7EB"
+        android:layout_marginVertical="16dp"/>
+
+    <!-- Return Options -->
+    <RadioGroup
+        android:id="@+id/radioGroupCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Safe Return -->
+        <RadioButton
+            android:id="@+id/radioSafe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✅ Returned Safe - Full Refund"
+            android:textColor="#374151"
+            android:textSize="15sp"
+            android:padding="12dp"
+            android:checked="true"/>
+
+        <!-- Late Return -->
+        <RadioButton
+            android:id="@+id/radioLate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⏰ Late Return - Deduct Fine"
+            android:textColor="#374151"
+            android:textSize="15sp"
+            android:padding="12dp"/>
+
+        <!-- Damaged -->
+        <RadioButton
+            android:id="@+id/radioDamaged"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📖 Damaged - Partial Deduction"
+            android:textColor="#374151"
+            android:textSize="15sp"
+            android:padding="12dp"/>
+
+        <!-- Lost -->
+        <RadioButton
+            android:id="@+id/radioLost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚫 Lost - Full Deduction"
+            android:textColor="#374151"
+            android:textSize="15sp"
+            android:padding="12dp"/>
+
+    </RadioGroup>
+
+    <!-- Late Days Input (hidden by default) -->
+    <LinearLayout
+        android:id="@+id/layoutLateDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Days Late:"
+            android:textColor="#374151"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/etDaysLate"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:inputType="number"
+            android:hint="0"
+            android:textAlignment="center"
+            android:background="@drawable/bg_input_rounded"/>
+
+        <TextView
+            android:id="@+id/tvLateFinePreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fine: ₹0"
+            android:textColor="#F59E0B"
+            android:textSize="14sp"
+            android:layout_marginStart="12dp"/>
+    </LinearLayout>
+
+    <!-- Damage Level (hidden by default) -->
+    <LinearLayout
+        android:id="@+id/layoutDamageLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Damage Level:"
+            android:textColor="#374151"
+            android:textSize="14sp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupDamage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/radioDamageMinor"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Minor (10%)"
+                android:textSize="12sp"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radioDamageModerate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Moderate (30%)"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:id="@+id/radioDamageSevere"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Severe (50%)"
+                android:textSize="12sp"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <!-- Summary -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F3F4F6"
+        android:padding="12dp"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Fine Amount:"
+                android:textColor="#6B7280"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tvFineAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹0"
+                android:textColor="#EF4444"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Refund Amount:"
+                android:textColor="#6B7280"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tvRefundAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹299"
+                android:textColor="#10B981"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Notes -->
+    <EditText
+        android:id="@+id/etNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add notes (optional)"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:maxLines="3"
+        android:background="@drawable/bg_input_rounded"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:textSize="14sp"/>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textColor="#6B7280"
+            android:textSize="16sp"
+            android:background="@drawable/bg_button_outline"/>
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="0dp"/>
+
+        <TextView
+            android:id="@+id/btnConfirm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="Process Return"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_button_purple"/>
+    </LinearLayout>
+
+</LinearLayout>

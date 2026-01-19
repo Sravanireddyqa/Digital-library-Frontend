@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">लाइब्रेरी AI</string>
+    
+    <!-- Settings -->
+    <string name="settings">सेटिंग्स</string>
+    <string name="edit_profile">प्रोफ़ाइल संपादित करें</string>
+    <string name="change_name">नाम बदलें</string>
+    <string name="change_phone">फ़ोन नंबर बदलें</string>
+    <string name="change_password">पासवर्ड बदलें</string>
+    <string name="update_password">पासवर्ड अपडेट करें</string>
+    
+    <!-- Notifications -->
+    <string name="notification_settings">सूचना सेटिंग्स</string>
+    <string name="new_books_alert">नई पुस्तकें अलर्ट</string>
+    <string name="reservation_status">आरक्षण स्थिति अलर्ट</string>
+    <string name="due_date_reminder">नियत तारीख रिमाइंडर</string>
+    
+    <!-- Search Preferences -->
+    <string name="search_preferences">खोज प्राथमिकताएं (AI)</string>
+    <string name="enable_semantic_search">सिमेंटिक खोज सक्षम करें</string>
+    <string name="preferred_category">पसंदीदा श्रेणी</string>
+    <string name="language_preference">भाषा प्राथमिकता</string>
+    
+    <!-- Privacy -->
+    <string name="privacy_security">गोपनीयता &amp; सुरक्षा</string>
+    <string name="remember_me">मुझे याद रखें</string>
+    <string name="auto_logout">ऑटो लॉगआउट टाइमर</string>
+    <string name="clear_history">खोज इतिहास साफ़ करें</string>
+    
+    <!-- App Info -->
+    <string name="app_info">ऐप जानकारी</string>
+    <string name="about_app">ऐप के बारे में</string>
+    <string name="terms_conditions">नियम &amp; शर्तें</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="version">संस्करण 1.0.0</string>
+    
+    <!-- Navigation -->
+    <string name="home">होम</string>
+    <string name="search">खोज</string>
+    <string name="libraries">लाइब्रेरी</string>
+    <string name="bookings">बुकिंग</string>
+    <string name="wishlist">विशलिस्ट</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="logout">लॉगआउट</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_about_title">ऐप के बारे में</string>
+    <string name="dialog_about_message">लाइब्रेरी AI v1.0.0\n\nAI-संचालित सिमेंटिक सर्च के साथ स्मार्ट डिजिटल लाइब्रेरी ऐप।\n\nविशेषताएं:\n• पुस्तकें ब्राउज़ करें और आरक्षित करें\n• NLP के साथ सिमेंटिक खोज\n• एकाधिक लाइब्रेरी समर्थन\n• विशलिस्ट प्रबंधन\n• रियल-टाइम सूचनाएं\n\n© 2024 SIMATS विश्वविद्यालय</string>
+    <string name="dialog_terms_title">नियम &amp; शर्तें</string>
+    <string name="dialog_terms_message">1. पुस्तकें आरक्षित करने के लिए उपयोगकर्ताओं को पंजीकृत होना चाहिए।\n\n2. आरक्षित पुस्तकें 3 दिनों के भीतर लेनी होंगी।\n\n3. देर से वापसी पर जुर्माना लग सकता है।\n\n4. पुस्तक की देखभाल के लिए उपयोगकर्ता जिम्मेदार हैं।\n\n5. लाइब्रेरी के पास आरक्षण रद्द करने का अधिकार है।\n\n6. पुस्तक वापसी पर सुरक्षा जमा वापस किया जाएगा।\n\n7. उपयोगकर्ताओं को लाइब्रेरी नियमों का पालन करना होगा।</string>
+    <string name="dialog_privacy_title">गोपनीयता नीति</string>
+    <string name="dialog_privacy_message">हम आपकी गोपनीयता का सम्मान करते हैं और आपके व्यक्तिगत डेटा की सुरक्षा के लिए प्रतिबद्ध हैं।\n\nहम जो डेटा एकत्र करते हैं:\n• पंजीकरण के लिए नाम और ईमेल\n• आरक्षण इतिहास\n• खोज प्राथमिकताएं\n\nहम डेटा का उपयोग कैसे करते हैं:\n• लाइब्रेरी सेवाएं प्रदान करने के लिए\n• सूचनाएं भेजने के लिए\n• खोज परिणामों को बेहतर बनाने के लिए\n\nआपका डेटा सुरक्षित रूप से संग्रहीत है और तीसरे पक्ष के साथ साझा नहीं किया जाता।</string>
+    <string name="dialog_clear_history_title">खोज इतिहास साफ़ करें</string>
+    <string name="dialog_clear_history_message">क्या आप निश्चित हैं?</string>
+    <string name="dialog_change_name_title">नाम बदलें</string>
+    <string name="dialog_change_phone_title">फ़ोन नंबर बदलें</string>
+    <string name="dialog_change_password_title">पासवर्ड बदलें</string>
+    <string name="hint_enter_name">नया नाम दर्ज करें</string>
+    <string name="hint_enter_phone">फ़ोन नंबर दर्ज करें</string>
+    <string name="hint_current_password">वर्तमान पासवर्ड</string>
+    <string name="hint_new_password">नया पासवर्ड</string>
+    <string name="hint_confirm_password">पासवर्ड की पुष्टि करें</string>
+    <string name="btn_save">सहेजें</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_clear">साफ़ करें</string>
+    <string name="btn_change">बदलें</string>
+    <string name="btn_ok">ठीक है</string>
+    <string name="msg_name_updated">नाम अपडेट हुआ</string>
+    <string name="msg_phone_updated">फ़ोन अपडेट हुआ</string>
+    <string name="msg_password_changed">पासवर्ड सफलतापूर्वक बदला गया!</string>
+    <string name="msg_history_cleared">खोज इतिहास साफ़ हुआ</string>
+    <string name="error_enter_password">वर्तमान पासवर्ड दर्ज करें</string>
+    <string name="error_password_short">पासवर्ड कम से कम 6 अक्षर का होना चाहिए</string>
+    <string name="error_password_mismatch">पासवर्ड मेल नहीं खाते</string>
+</resources>
