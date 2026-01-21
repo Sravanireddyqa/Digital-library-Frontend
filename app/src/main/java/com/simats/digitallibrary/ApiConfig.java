@@ -13,7 +13,7 @@ public class ApiConfig {
     // =====================================================
 
     // 10.0.2.2 = Android Emulator's alias for host computer's localhost
-    public static final String SERVER_IP = "172.30.239.135";
+    public static final String SERVER_IP = "180.235.121.253:8087";
 
     // Server port (XAMPP default is 80)
     public static final String SERVER_PORT = "80";
@@ -24,7 +24,10 @@ public class ApiConfig {
     // =====================================================
     // BASE URL - Auto-constructed from above
     // =====================================================
-    public static final String BASE_URL = "http://" + SERVER_IP + ":" + SERVER_PORT + "/" + PROJECT_FOLDER + "/";
+//    public static final String BASE_URL = "http://" + SERVER_IP + ":" + SERVER_PORT + "/" + PROJECT_FOLDER + "/";
+
+    public static final String BASE_URL = "http://180.235.121.253:8087/digitallibrary_API/";
+
 
     // =====================================================
     // API ENDPOINTS

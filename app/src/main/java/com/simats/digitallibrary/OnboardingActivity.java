@@ -50,11 +50,8 @@ public class OnboardingActivity extends AppCompatActivity {
             return;
         }
 
-        // If onboarding already completed, skip to role selection (login flow)
-        if (isOnboardingCompleted()) {
-            navigateToSelectAccountType();
-            return;
-        }
+        // NOTE: Removed the isOnboardingCompleted() check so splash/onboarding
+        // shows every time the app is opened (not just on first install)
 
         // Show onboarding for first-time users
         setContentView(R.layout.activity_onboarding);

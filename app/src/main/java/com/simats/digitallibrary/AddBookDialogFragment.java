@@ -58,7 +58,7 @@ public class AddBookDialogFragment extends DialogFragment {
     private boolean isUploadingImage = false;
     private ActivityResultLauncher<String> imagePickerLauncher;
 
-    // Book categories
+    // Book categories - synced with database categories table
     private static final String[] CATEGORIES = {
             "Select Category",
             "Fiction",
@@ -69,6 +69,7 @@ public class AddBookDialogFragment extends DialogFragment {
             "Horror",
             "Biography",
             "History",
+            "Mythology",
             "Science",
             "Self-Help"
     };

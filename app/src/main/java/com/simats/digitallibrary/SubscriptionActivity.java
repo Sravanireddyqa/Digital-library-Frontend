@@ -3,6 +3,7 @@ package com.simats.digitallibrary;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,37 +17,32 @@ public class SubscriptionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_subscription);
 
-        initViews();
+        initializeViews();
         setupClickListeners();
     }
 
-    private void initViews() {
+    private void initializeViews() {
         btnUpgradePremium = findViewById(R.id.btnUpgradePremium);
         btnSkipForNow = findViewById(R.id.btnSkipForNow);
     }
 
     private void setupClickListeners() {
+        // Upgrade to Premium - Show subscription not available message
         btnUpgradePremium.setOnClickListener(v -> {
-            // Navigate to Login/Account Selection (same as skip)
-            navigateToLogin();
+            Toast.makeText(this, "Subscription not available. Please try again later.", Toast.LENGTH_LONG).show();
         });
 
+        // Skip for now - Go to Reader/Admin selection page
         btnSkipForNow.setOnClickListener(v -> {
-            // Navigate to Login/Account Selection
-            navigateToLogin();
+            Intent intent = new Intent(this, SelectAccountTypeActivity.class);
+            startActivity(intent);
+            finish();
         });
-    }
-
-    private void navigateToLogin() {
-        Intent intent = new Intent(this, LoginActivity.class);
-        startActivity(intent);
-        finish();
     }
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        // Go back to onboarding if pressed back
         finish();
     }
 }

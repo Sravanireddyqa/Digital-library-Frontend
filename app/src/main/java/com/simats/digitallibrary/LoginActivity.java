@@ -119,8 +119,10 @@ public class LoginActivity extends AppCompatActivity {
         ivPasswordToggle.setOnClickListener(v -> togglePassword());
 
         tvSignUp.setOnClickListener(v -> {
-            Intent intent = new Intent(this, SelectAccountTypeActivity.class);
-            intent.putExtra(SelectAccountTypeActivity.EXTRA_FLOW_TYPE, SelectAccountTypeActivity.FLOW_SIGNUP);
+            // Go directly to RegisterActivity with same account type (no Reader/Admin
+            // selection again)
+            Intent intent = new Intent(this, RegisterActivity.class);
+            intent.putExtra(SelectAccountTypeActivity.EXTRA_ACCOUNT_TYPE, accountType);
             startActivity(intent);
         });
 
