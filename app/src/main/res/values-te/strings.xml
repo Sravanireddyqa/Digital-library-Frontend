@@ -71,7 +71,5 @@
     <string name="msg_phone_updated">ఫోన్ అప్‌డేట్ అయింది</string>
     <string name="msg_password_changed">పాస్‌వర్డ్ విజయవంతంగా మార్చబడింది!</string>
     <string name="msg_history_cleared">శోధన చరిత్ర క్లియర్ అయింది</string>
-    <string name="error_enter_password">ప్రస్తుత పాస్‌వర్డ్ ఎంటర్ చేయండి</string>
     <string name="error_password_short">పాస్‌వర్డ్ కనీసం 6 అక్షరాలు ఉండాలి</string>
-    <string name="error_password_mismatch">పాస్‌వర్డ్‌లు సరిపోలలేదు</string>
 </resources>

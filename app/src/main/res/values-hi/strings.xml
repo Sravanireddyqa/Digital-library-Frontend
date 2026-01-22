@@ -71,7 +71,5 @@
     <string name="msg_phone_updated">फ़ोन अपडेट हुआ</string>
     <string name="msg_password_changed">पासवर्ड सफलतापूर्वक बदला गया!</string>
     <string name="msg_history_cleared">खोज इतिहास साफ़ हुआ</string>
-    <string name="error_enter_password">वर्तमान पासवर्ड दर्ज करें</string>
     <string name="error_password_short">पासवर्ड कम से कम 6 अक्षर का होना चाहिए</string>
-    <string name="error_password_mismatch">पासवर्ड मेल नहीं खाते</string>
 </resources>

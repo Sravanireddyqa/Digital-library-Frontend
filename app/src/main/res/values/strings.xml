@@ -3,55 +3,55 @@
     <string name="app_name">Digital Library</string>
     
     <!-- Onboarding -->
-    <string name="onboarding_header">AI Semantic Search App</string>
-    <string name="onboarding_app_name">Digital Library</string>
-    <string name="onboarding_tagline">Your Smart Library Companion</string>
-    <string name="onboarding_powered_by">Powered by AI &amp; Semantic Search</string>
+    <string name="onboarding_header" translatable="false">AI Semantic Search App</string>
+    <string name="onboarding_app_name" translatable="false">Digital Library</string>
+    <string name="onboarding_tagline" translatable="false">Your Smart Library Companion</string>
+    <string name="onboarding_powered_by" translatable="false">Powered by AI &amp; Semantic Search</string>
     
-    <string name="onboarding_title_1">AI-Powered Semantic Search</string>
-    <string name="onboarding_desc_1">Discover books using natural language and advanced NLP. Just describe what you want to read, and our AI will understand your intent and find the perfect match.</string>
+    <string name="onboarding_title_1" translatable="false">AI-Powered Semantic Search</string>
+    <string name="onboarding_desc_1" translatable="false">Discover books using natural language and advanced NLP. Just describe what you want to read, and our AI will understand your intent and find the perfect match.</string>
     
-    <string name="onboarding_title_2">Smart Book Catalog</string>
-    <string name="onboarding_desc_2">Browse through our extensive collection of books organized intelligently. Filter by genre, author, availability, and get personalized recommendations.</string>
+    <string name="onboarding_title_2" translatable="false">Smart Book Catalog</string>
+    <string name="onboarding_desc_2" translatable="false">Browse through our extensive collection of books organized intelligently. Filter by genre, author, availability, and get personalized recommendations.</string>
     
-    <string name="onboarding_title_3">Easy Reservations</string>
-    <string name="onboarding_desc_3">Reserve your favorite books with just one tap. Get notified when they\'re available and never miss out on the books you love.</string>
+    <string name="onboarding_title_3" translatable="false">Easy Reservations</string>
+    <string name="onboarding_desc_3" translatable="false">Reserve your favorite books with just one tap. Get notified when they\'re available and never miss out on the books you love.</string>
     
-    <string name="btn_next">Next</string>
-    <string name="btn_get_started">Get Started</string>
-    <string name="btn_skip">Skip</string>
+    <string name="btn_next" translatable="false">Next</string>
+    <string name="btn_get_started" translatable="false">Get Started</string>
+    <string name="btn_skip" translatable="false">Skip</string>
     
     <!-- Login -->
-    <string name="login_title">Welcome Back!</string>
-    <string name="login_subtitle">Access your personalized library experience with AI-powered book recommendations</string>
-    <string name="hint_email">your@email.com</string>
-    <string name="hint_password">••••••••</string>
-    <string name="label_email">Email</string>
-    <string name="label_password">Password</string>
-    <string name="forgot_password">Forgot password?</string>
-    <string name="btn_login">Login</string>
-    <string name="dont_have_account">Don\'t have an account?</string>
-    <string name="sign_up">Sign Up</string>
+    <string name="login_title" translatable="false">Welcome Back!</string>
+    <string name="login_subtitle" translatable="false">Access your personalized library experience with AI-powered book recommendations</string>
+    <string name="hint_email" translatable="false">your@email.com</string>
+    <string name="hint_password" translatable="false">••••••••</string>
+    <string name="label_email" translatable="false">Email</string>
+    <string name="label_password" translatable="false">Password</string>
+    <string name="forgot_password" translatable="false">Forgot password?</string>
+    <string name="btn_login" translatable="false">Login</string>
+    <string name="dont_have_account" translatable="false">Don\'t have an account?</string>
+    <string name="sign_up" translatable="false">Sign Up</string>
     
     <!-- Register -->
-    <string name="register_title">Create Account</string>
-    <string name="register_subtitle">Join our library and discover amazing books with AI</string>
-    <string name="label_name">Full Name</string>
-    <string name="hint_name">John Doe</string>
-    <string name="label_confirm_password">Confirm Password</string>
-    <string name="btn_register">Sign Up</string>
-    <string name="already_have_account">Already have an account?</string>
+    <string name="register_title" translatable="false">Create Account</string>
+    <string name="register_subtitle" translatable="false">Join our library and discover amazing books with AI</string>
+    <string name="label_name" translatable="false">Full Name</string>
+    <string name="hint_name" translatable="false">John Doe</string>
+    <string name="label_confirm_password" translatable="false">Confirm Password</string>
+    <string name="btn_register" translatable="false">Sign Up</string>
+    <string name="already_have_account" translatable="false">Already have an account?</string>
     
     <!-- Error Messages -->
-    <string name="error_email_required">Email is required</string>
-    <string name="error_email_invalid">Please enter a valid email</string>
-    <string name="error_password_required">Password is required</string>
+    <string name="error_email_required" translatable="false">Email is required</string>
+    <string name="error_email_invalid" translatable="false">Please enter a valid email</string>
+    <string name="error_password_required" translatable="false">Password is required</string>
     <string name="error_password_short">Password must be at least 6 characters</string>
-    <string name="error_name_required">Name is required</string>
-    <string name="error_passwords_mismatch">Passwords do not match</string>
-    <string name="error_network">Network error. Please check your connection.</string>
-    <string name="error_login_failed">Login failed. Please try again.</string>
-    <string name="error_register_failed">Registration failed. Please try again.</string>
+    <string name="error_name_required" translatable="false">Name is required</string>
+    <string name="error_passwords_mismatch" translatable="false">Passwords do not match</string>
+    <string name="error_network" translatable="false">Network error. Please check your connection.</string>
+    <string name="error_login_failed" translatable="false">Login failed. Please try again.</string>
+    <string name="error_register_failed" translatable="false">Registration failed. Please try again.</string>
     
     <!-- Settings -->
     <string name="settings">Settings</string>

@@ -71,7 +71,5 @@
     <string name="msg_phone_updated">தொலைபேசி புதுப்பிக்கப்பட்டது</string>
     <string name="msg_password_changed">கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது!</string>
     <string name="msg_history_cleared">தேடல் வரலாறு அழிக்கப்பட்டது</string>
-    <string name="error_enter_password">தற்போதைய கடவுச்சொல் உள்ளிடுக</string>
     <string name="error_password_short">கடவுச்சொல் குறைந்தது 6 எழுத்துகள் இருக்க வேண்டும்</string>
-    <string name="error_password_mismatch">கடவுச்சொற்கள் பொருந்தவில்லை</string>
 </resources>
